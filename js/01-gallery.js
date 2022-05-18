@@ -5,8 +5,6 @@ let modal;
 const gallery = document.querySelector("div.gallery");
 const galleryMockup = buildGalleryMockup(galleryItems);
 
-console.log(VK_CONTROL);
-
 gallery.innerHTML = galleryMockup.join("\n");
 
 gallery.addEventListener("click", showBigImage);
